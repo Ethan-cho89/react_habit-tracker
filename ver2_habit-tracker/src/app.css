@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+button {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.navbar {
+  font-size: 3rem;
+  background-color: wheat;
+  padding: 20px;
+}
+.fa-pagelines {
+  color: green;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+
+.navbar-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.2rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 50%;
+  vertical-align: -1px;
+}
+.add-form {
+  margin: 1rem;
+}
+.habit-input {
+  font-size: 1.5rem;
+  padding: 0.1em;
+}
+.habit-submit {
+  font-size: 1.5rem;
+  padding: 0.2em;
+  color: white;
+  background-color: green;
+}
+
+.habit {
+  font-size: 2rem;
+  margin: 1em;
+  list-style: none;
+}
+
+.habit-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.8rem;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 50%;
+}
+.habit-button {
+  font-size: 3rem;
+  padding: 10px;
+  margin: 0 0.1em;
+  background-color: transparent;
+  vertical-align: -3px;
+}
+
+.habit-increase,
+.habit-decrease {
+  color: goldenrod;
+}
+.habit-delete {
+  color: crimson;
+}
+
+.habit-reset {
+  font-size: 2rem;
+  color: white;
+  background-color: green;
+  padding: 5px 20px;
+  border-radius: 25px 25px 25px 25px;
+}
